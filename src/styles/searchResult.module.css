@@ -1,5 +1,5 @@
 .results {
-    flex-grow: 1;
+    /* flex-grow: 1; */
     background-color:#4e8c93; /* Use RGBA for background color */
     border-radius: 15px;
     color: white;

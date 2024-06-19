@@ -4,7 +4,6 @@ import { SearchResult } from './SearchResult';
 import { AddToPlaylist } from './AddToPlaylist';
 
 function ResultsMidSection({songTitle}) {
-    console.log(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"+songTitle)
     return (
         <>
             <div className={styles.midSection}>
