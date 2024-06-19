@@ -1,0 +1,12 @@
+.midSection{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+
+.results h2 {
+    color: rgba(255, 255, 255, 1); /* Fully opaque white text */
+}

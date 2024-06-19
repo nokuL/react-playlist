@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -14,14 +15,16 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-image: url("https://static.vecteezy.com/system/resources/previews/033/949/237/non_2x/modern-and-good-looking-dark-color-musical-background-free-vector.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  position: fixed;
+  margin-top: 50px;
+  width: 100%;
 }
 
 .App-link {
