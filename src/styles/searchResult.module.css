@@ -1,25 +1,47 @@
 .results {
     /* flex-grow: 1; */
-    background-color:#4e8c93; /* Use RGBA for background color */
+    background-color:#4e8c93;
     border-radius: 15px;
     color: white;
+    width: 500px;
 }
 ul {
-    list-style-type: none; /* Removes default bullet points */
-    padding: 0; /* Removes default padding */
+    list-style-type: none; 
+    padding: 0; 
   }
   
   li {
-    border-bottom: 1px solid #063b4f; /* Adds a border to the bottom of each list item */
-    padding: 10px; /* Adds some padding inside each list item for better readability */
-    cursor: pointer; /* Changes the cursor to a pointer when hovering over list items */
+    border-bottom: 1px solid #063b4f; 
+    padding: 10px; 
+    cursor: pointer; 
   }
   
   li:last-child {
-    border-bottom: none; /* Removes the border from the last list item */
+    border-bottom: none; 
   }
   
   li:hover {
-    background-color: #f0f0f0; /* Changes the background color of a list item when hovered */
+    background-color: #f0f0f0; 
+    color: #063b4f;
+  }
+  h3{
+    color: #063b4f;
   }
   
+  .listView{
+    display: flex;
+    flex-direction: row;
+    
+  
+  }
+  .listViewTitle{
+    display: flex;
+    flex-grow: 4;
+    justify-content: flex-start;
+
+  }
+  .listViewIcon{
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+  }

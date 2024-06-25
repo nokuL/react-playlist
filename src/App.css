@@ -19,7 +19,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  /* min-height: 100vh; */
+   min-height: 100vh; 
   font-size: calc(10px + 2vmin);
   color: white;
   margin-top: 50px;
