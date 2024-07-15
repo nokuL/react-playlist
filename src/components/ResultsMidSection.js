@@ -7,7 +7,6 @@ function ResultsMidSection({songTitle, songs}) {
     const [playlist , setPlaylist] = useState([]);
 
     function removeFromPlaylist(song){
-        console.log("****************************** removing"+song)
          setPlaylist(playlist.filter(songItem=> songItem.id !== song.id));
          alert("Removed song")
 
